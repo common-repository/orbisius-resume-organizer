@@ -1,0 +1,147 @@
+/* Product of Orbisius.com. Visit http://club.orbisius.com/ */
+.orbisius-resume_organizer-container .app-hide {
+    display: none;
+}
+
+.orbisius-resume_organizer-container .app-hide-force {
+    display: none !important;
+}
+
+.orbisius-resume_organizer-container .app-form-field-error {
+    border-color: red;
+}
+
+.orbisius-resume_organizer-container .app-serious-notice {
+    color: red;
+    font-weight: bold;
+}
+
+/* Common */
+.orbisius-resume_organizer-container .app-alert-error {
+    background: #D54E21;
+    border: 1px solid #eee;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+.orbisius-resume_organizer-container .app-alert-success {
+    background: green;
+    border: 1px solid #eee;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+.orbisius-resume_organizer-container .app-alert-success a {
+    color: white;
+}
+
+.orbisius-resume_organizer-container .app-alert-notice {
+    background: #FFEC8B;
+    border: 1px solid #eee;
+    padding: 3px;
+    text-align: center;
+}
+
+.orbisius-resume_organizer-container .app-button-positive {
+    background: green;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.orbisius-resume_organizer-container .app-button-negative {
+    background: red;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+
+/* dlg button colouring */
+.orbisius-resume_organizer-container .app-dialog-button-ok {
+    background: green !important;
+    color: white !important;
+}
+
+.orbisius-resume_organizer-container .app-dialog-button-cancel {
+    background: red !important;
+    color: white !important;
+}
+
+.orbisius-resume_organizer-container .app-button-left, .app-align-left{
+    float: left;
+}
+
+.orbisius-resume_organizer-container .app-button-right, .orbisius-resume_organizer-container .app-align-right {
+    float: right;
+}
+
+.orbisius-resume_organizer-container .app-button-container {
+    padding:10px;
+    background: #ccc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.orbisius-resume_organizer-container .available-theme {
+    padding:10px;
+    border: 2px solid white; /* we need this because there is a shift otherwise on hover. */
+}
+
+.orbisius-resume_organizer-container .available-theme:hover {
+    border: 2px solid #444;
+    background: #ccc;
+}
+
+#orbisius_resume_organizer_resume_properties .app_downloads_table {
+    _border:1px solid #999;
+    margin:0;
+    padding:0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#orbisius_resume_organizer_resume_properties .app_table_header_row {
+    font-weight:bolder;
+	background:#aaa;
+	text-align:center;
+	color:#fff;
+}
+
+#orbisius_resume_organizer_resume_properties .app_table_row_odd {
+    background:#dadada;
+}
+
+#orbisius_resume_organizer_resume_properties .app_downloads_table tr.app_table_data_row:hover {
+    background:#FFFF66;
+}
+
+#orbisius_resume_organizer_resume_properties .app_downloads_table tr td {
+    padding:5px;
+    _border: 1px solid black;
+    overflow: auto;
+}
+
+#orbisius_resume_organizer_resume_properties .app_downloads_table tr .plugin_number {
+    width:5%;
+    text-align: center;
+}
+
+#orbisius_resume_organizer_resume_properties .app_downloads_table tr .plugin_name_cell {
+    width: 40%;
+}
+
+#orbisius_resume_organizer_resume_properties .app_downloads_table tr td.data_cell {
+    text-align: center;
+    width: 15%;
+}
+
+#orbisius_resume_organizer_resume_properties .app_downloads_table tr td.download_url_cell {
+    text-align: center;
+    width: 20%;
+}
+
+#orbisius_resume_organizer_resume_properties .orbisius_resume_organizer_admin_delete_attachment {
+    color:red;
+}
